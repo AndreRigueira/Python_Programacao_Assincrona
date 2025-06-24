@@ -67,6 +67,7 @@ async def main():
         processa_pedido(102),
         processa_pedido(103)
     )
+    print('Todos os pedidos foram processados!')
 
 asyncio.run(main())
         
